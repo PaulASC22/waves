@@ -1,0 +1,86 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    padding: 20px;
+}
+
+div {
+    color:black;
+    line-height: 2em;
+}
+
+h1 {
+    color: ; /* rgb value */
+    text-align: center;
+    color: rgb(224, 206, 31);
+
+}
+
+.green {
+    background:#0000ff
+}
+
+.custom-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 204px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape .shape-fill {
+    fill: #0000FF;
+}
+
+.spacer {
+    aspect-ratio: 600/300;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.layered-steps-haikei {
+    background-image:url('./cheese.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+
+
+#big_div{ 
+    border: 3px solid darkblue;
+    margin: 30px;
+    padding: 20px;
+}
+
+.pokemon_name {
+    text-align: center;
+    font-size: 40px;
+    font: bold;
+    margin: 10px;
+}
+.sub_div {
+    display: flex;
+}
+
+img {
+    height: 200px;
+    padding-right: 20px;
+}
+
+#special {
+    font-weight: bold;
+    color: rgb(255, 203, 5); /* rgb value */
+}
